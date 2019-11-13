@@ -2,26 +2,22 @@
 <html lang="pt-BR">
 
   <head>
-
     <meta charset="UTF-8">  
-    <title> Front in Floripa </title>
+    <title>Front in Floripa</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
-
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
   </head>
 
   <body>
+    <header class="container group">
 
-    <header class="container">
+      <h1 class="logo"> 
+        <a href="index.html">Front<br>in<br>Floripa</a>
+      </h1>
 
-      <section class="container">
-        <h1> 
-          <a href="index.html"> Front in Floripa </a>
-        </h1>
-      </section>
+      <h3 class="tagline"> 30 de Novembro, Hotel Maria do Mar </h3>
 
-      <h3> 30 de Novembro, Hotel Maria do Mar </h3>
-
-      <nav>
+      <nav class="nav primary-nav">
         <a href="index.html"> Home </a>
         <a href="speakers.html"> Speakers </a>
         <a href="schedule.html"> Agenda </a>
@@ -37,25 +33,29 @@
       <a class="btn btn-alt" href="register.html"> Registrar </a>
     </section>
 
-    <section class="container">
-
-      <section>
+    <section class="grid">
+      <!-- Speakers -->
+      <section class="teaser col-1-3">
         <a href="speakers.html">
           <h5> Speakers </h5>
           <h3> Os melhores speakers do Brasil </h3>
         </a>
         <p> Juntando-se à nós de todos os cantos do Brasil mais de 10 fantásticos speakers, aqui para compartilhar suas histórias. </p>     
-      </section>
-
-      <section class="container">
+      </section><!--
+  
+        Schedule
+        
+   --><section class=" teaser col-1-3">
         <a href="schedule.html">
           <h5> Agenda </h5>
           <h3> Um dia inspirante </h3>
         </a>
         <p> Aproveite o sábado inspirador repleto de ação, palestras, encontros e bons momentos.  </p>
-      </section>
-
-      <section class="container">
+      </section><!--
+  
+        Venue
+        
+   --><section class=" teaser col-1-3">
         <a href="venue.html">
           <h5> Endereço </h5>
           <h3> Hotel Maria do Mar </h3>
@@ -65,11 +65,11 @@
 
     </section>
    
-    <footer class="container">
+    <footer class="primary-footer container group">
    
       <small> &copy; Front in Floripa </small>
   
-      <nav>
+      <nav class="nav">
         <a href="index.html"> Home </a>
         <a href="speakers.html"> Speakers </a>
         <a href="schedule.html"> Agenda </a>
